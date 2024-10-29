@@ -1,0 +1,45 @@
+#conteneur{
+    display: grid;
+    max-width: 50%;
+    margin: auto;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(8,1fr);
+    grid-template-areas: 
+    " h h h h h"
+    " n n n n n"
+    " a m m m m"
+    " a m m m m "
+    " a m m m m "
+    " a m m m m "
+    " a m m m m "
+    " f f f f f ";
+}
+.cellule{
+    background-color: aqua;
+    color:black;
+    border-style: solid;
+    border-color: white;
+ border-width: 2px;   
+ padding: 32px;
+}
+#head{
+    grid-area: h;
+    
+}
+#main{
+    grid-area: m;
+
+}
+#aside{
+    grid-area: a;
+
+    
+}
+#nav{
+    grid-area: n;
+
+}
+#foot{
+    grid-area: f;
+
+}

@@ -1,0 +1,53 @@
+.puzzle {
+    margin: auto;
+    max-width: min-content;
+    max-height: min-content;
+    display: grid;
+
+    grid-template-areas:
+        "b b c h"
+        "a e e h"
+        "d f i i"
+        "d g g j";
+}
+
+#piece01 {
+    grid-area: b;
+
+}
+
+#piece02 {
+    grid-area: c;
+}
+
+#piece03 {
+    grid-area: h;
+}
+
+#piece04 {
+    grid-area: a;
+}
+
+#piece05 {
+    grid-area: e;
+}
+
+#piece06 {
+    grid-area: d;
+}
+
+#piece07 {
+    grid-area: f;
+}
+
+#piece08 {
+    grid-area: i;
+}
+
+#piece09 {
+    grid-area: g;
+}
+
+#piece10 {
+    grid-area: j;
+}

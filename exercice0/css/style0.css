@@ -1,0 +1,32 @@
+.conteneur{
+    display: grid;
+    max-width: 50%;
+    margin: auto;
+   
+}
+#conteneur1{
+    grid-template-columns: repeat(3 , 1fr);
+}
+#conteneur2{
+    grid-template-columns: 1fr 2fr 3fr;
+}
+#conteneur3{
+    grid-template-columns: 1fr 2fr 3fr ;
+    grid-template-rows: 2fr 1fr 1fr;
+}
+h1{
+    margin: auto;
+    text-align: center;
+}
+.cellule{
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    padding: 16px;
+}
+.cellule:nth-child(even){
+    background-color: lightskyblue;
+}
+.cellule:nth-child(odd){
+    background-color: lightpink;
+}
